@@ -1,6 +1,6 @@
 ﻿# Fiche de Révision — Conception de Systèmes Interactifs (CEIHM)
 
-Astuce: pour voir les schémas Mermaid, ouvre l’aperçu Markdown de ton IDE (ex. VS Code) qui les supporte.
+
 
 ## Sommaire
 - S1 — Introduction (Usability, UX, UCD)
@@ -21,16 +21,7 @@ Astuce: pour voir les schémas Mermaid, ouvre l’aperçu Markdown de ton IDE (e
 - Accessibilité: concevoir pour tous (sensoriel, moteur, cognitif, contexte technique).
 - UCD: comprendre contexte → fixer exigences → concevoir → évaluer → itérer.
 
-### Schéma — Cycle UCD
-![Diagramme Mermaid (Fiche_revi-zion_Systèmes_interactifs)](mermaid-images/Fiche_revi-zion_Systèmes_interactifs-mermaid-fbdc8a1c6e.svg)
-<!-- Mermaid source replaced by image:
-flowchart LR
-  A[Planifier] --&gt; B[Contexte d'utilisation]
-  B --&gt; C[Exigences d'utilisabilité]
-  C --&gt; D[Solutions de conception]
-  D --&gt; E[Évaluer avec utilisateurs]
-  E -- itérer --&gt; C
--->
+
 
 ### Définitions rapides
 - Usability: aptitude d’un système à être utilisé avec efficacité/efficience/satisfaction.
@@ -62,19 +53,7 @@ flowchart LR
 | Contexte      | Bruit, pics d’affluence |
 | Compétences   | Intermédiaire informatique |
 
-### Schéma — Variabilité et universal usability
-![Diagramme Mermaid (Fiche_revi-zion_Systèmes_interactifs)](mermaid-images/Fiche_revi-zion_Systèmes_interactifs-mermaid-06c270c3e8.svg)
-<!-- Mermaid source replaced by image:
-flowchart TB
-  U[Universal Usability] --&gt; P[Physique]
-  U --&gt; COG[Cognitif]
-  U --&gt; CULT[Culture]
-  U --&gt; TECH[Technologie]
-  P --&gt;|Ex.| Vision / Motricité
-  COG --&gt;|Ex.| Mémoire / Attention
-  CULT --&gt;|Ex.| Langue / Conventions
-  TECH --&gt;|Ex.| Navigateurs / Réseaux
--->
+
 
 ---
 
@@ -86,15 +65,7 @@ flowchart TB
 - Typologies (Mackay/Beaudouin‑Lafon): représentation, précision, interactivité, évolution.
 - Annotations: clarifier, questionner, valider, planifier (outils: Balsamiq, Uxpin…)
 
-### Schéma — Choisir la fidélité
-![Diagramme Mermaid (Fiche_revi-zion_Systèmes_interactifs)](mermaid-images/Fiche_revi-zion_Systèmes_interactifs-mermaid-afb695d905.svg)
-<!-- Mermaid source replaced by image:
-flowchart LR
-  L[Low‑Fi] -- + rapide\n+ co‑conception --&gt; EXP[Exploration]
-  H[Hi‑Fi] -- + réaliste\n+ tests utilisateurs --&gt; VAL[Validation]
-  EXP --&gt; DEC[Décisions]
-  VAL --&gt; DEC
--->
+
 
 ### Récap — Stratégies
 - Étendre l’espace de conception: générer options (horizontal/vertical, tâches/scénarios).
@@ -109,15 +80,7 @@ flowchart LR
 - Notations: HTA, GOMS/KLM, UAN, CTT, HAMSTERS.
 - CTT: hiérarchie + opérateurs temporels (>>, [>, |>, [ ], *, |||, |=|, [T]).
 
-### Schéma — Du scénario aux tâches
-![Diagramme Mermaid (Fiche_revi-zion_Systèmes_interactifs)](mermaid-images/Fiche_revi-zion_Systèmes_interactifs-mermaid-ff3b47f2ae.svg)
-<!-- Mermaid source replaced by image:
-flowchart LR
-  S[Scénario] --&gt;|verbes| T[Tâches]
-  S --&gt;|noms| O[Objets]
-  S --&gt;|adverbes| R[Relations temporelles]
-  T --&gt; CTT[Modèle CTT]
--->
+
 
 ### Opérateurs CTT (exemples)
 ```text
@@ -147,30 +110,14 @@ T1 |=| T2     : concurrence avec synchronisation de fin
 - Rationale: expliciter issues → options → critères → décisions (traçabilité).
 - S’appuyer sur théories (Norman) et scénarios/claims (bénéfices/risques).
 
-### Schéma — Gouffres de Norman
-![Diagramme Mermaid (Fiche_revi-zion_Systèmes_interactifs)](mermaid-images/Fiche_revi-zion_Systèmes_interactifs-mermaid-ca91fc7dad.svg)
-<!-- Mermaid source replaced by image:
-flowchart LR
-  G[But] --&gt; I[Intention] --&gt; S[Spécifier action] --&gt; X[Exécuter]
-  X --&gt; P[Percevoir état] --&gt; IN[Interpréter] --&gt; E[Évaluer]
-  classDef gulf fill:#fee,border:#f66
-  class S,X gulf
-  class P,IN,E gulf
--->
+
 
 ### QOC — Grille
 | Question | Options | Critères | Décision | Pourquoi |
 |----------|---------|---------|----------|----------|
 | Ex: Choix navigation | Menu latéral / Onglets | Temps, erreurs, apprentissage | Onglets | +Rapide, -erreurs |
 
-### Cycle task–artifact
-![Diagramme Mermaid (Fiche_revi-zion_Systèmes_interactifs)](mermaid-images/Fiche_revi-zion_Systèmes_interactifs-mermaid-88ca1f4692.svg)
-<!-- Mermaid source replaced by image:
-flowchart LR
-  T[Tâches existantes] --&gt; A[Artefact]
-  A --&gt; NT[Nouvelles tâches/pratiques]
-  NT --&gt; A2[Révision de l'artefact]
--->
+
 
 ---
 
@@ -194,18 +141,7 @@ flowchart LR
 | 9 | Concevoir pour les erreurs           | Prévenir slips/mistakes, protections |
 |10 | Aide et documentation                | Recherche, compréhension, application |
 
-### Walkthrough — Séquence type
-![Diagramme Mermaid (Fiche_revi-zion_Systèmes_interactifs)](mermaid-images/Fiche_revi-zion_Systèmes_interactifs-mermaid-89cc7cb1c0.svg)
-<!-- Mermaid source replaced by image:
-sequenceDiagram
-  participant U as Évaluateur
-  participant I as Interface
-  U->>U: 1) Définir utilisateur/tâche
-  U->>I: 2) Parcourir séquence d’actions
-  U->>U: 3) Se poser 4 questions (but? action dispo? correspondance? feedback?)
-  U--&gt;>U: 4) Consigner problèmes + hypothèses
-  U->>I: 5) Réviser prototype et itérer
--->
+
 
 ### GOMS/KLM — Utilisation
 - Estimer temps/erreurs pour comparer 2 designs.
