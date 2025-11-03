@@ -120,7 +120,7 @@ flowchart LR
 -->
 
 ### Opérateurs CTT (exemples)
-`	ext
+```text
 T1 >> T2      : T2 après T1 (enabling)
 T1 [> T2      : T2 interrompu par fin de T1 (disabling)
 T1 |> T2      : T2 peut interrompre T1 (interruption)
@@ -129,7 +129,7 @@ T1*           : itération
 T1 ||| T2     : concurrence libre
 T1 |=| T2     : concurrence avec synchronisation de fin
 [T]           : tâche optionnelle
-`
+```
 
 ### GOMS/KLM — Feuille rapide
 | Opérateur | Signification         | Temps typ. |
