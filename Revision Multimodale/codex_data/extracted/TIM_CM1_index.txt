@@ -1,0 +1,22 @@
+Intro et definitions (XR/VR/AR)
+- XR/MR: fusion du reel et du virtuel dans une meme interface; objets reels/virtuels coexistent et sont interactifs.
+- Continuum realite-virtualite (Milgram).
+- VR: monde entierement artificiel; immersion totale.
+- AR: information numerique injectee/superposee au reel.
+- Telepresence: etendre les capacites sensori-motrices et de resolution de problemes a distance.
+- Systeme immersif: Input (donnees utilisateur) -> Application (logique non rendue) -> Rendering (transfo representation -> experience) -> Display (representation physique).
+
+Modalites et interfaces
+- Modalites: visuel, audio, haptique, mouvement, capteurs, interaction (gestes, voix, controleurs, regard).
+- HMD: connecte ou autonome; 3DoF vs 6DoF; FOV env. 110 deg H / 95 deg V.
+- Handheld: 6DoF; AR/virtuality; mobile AR et smart glasses.
+- Types d'AR: marker-based, markerless, location-based (indoor tracking/GPS).
+
+Multimodalite
+- Definition: interaction avec environnement physique/virtuel via modes naturels.
+- Multimodalite intervient a l'entree (inputs multimodaux) et a la sortie (outputs multimodaux).
+- Fusion et fission multimodales dans la boucle humain-machine.
+
+GUI (WIMP) vs MUI
+- GUI: flux d'entree unique, traitement atomique/deterministe, sequentiel, architecture centralisee.
+- MUI: flux multiples, continu/probabiliste, traitement parallele, architecture distribuee et sensible au temps.

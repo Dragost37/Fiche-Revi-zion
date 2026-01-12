@@ -1,0 +1,42 @@
+Affordances et signifiants en MR
+- Affordance: actions possibles; relation capacites utilisateur/proprietes objet.
+- Signifiant: indique ou/comment agir; rend l'affordance perceptible.
+- Affordances en MR: cognition spatiale, interaction, feedback.
+
+Cognition spatiale
+- Occlusion/collision reel-virtuel.
+- Inputs multimodaux.
+- Perception de profondeur en mouvement.
+- Navigation en environnement virtuel.
+
+Interaction et feedback
+- Taches: selection, manipulation, relachement.
+- Feedback: graphique (texte), audio, haptique.
+- Principes: selection (indication + feedback), manipulation (attachement, position/orientation, feedback), relachement (indication + position finale).
+
+Fusion multimodale
+- Put-That-There: combinaison voix + geste.
+- Early fusion (feature/reconnaissance): modalites = features integrees dans un modele.
+- Late fusion (semantique/decision): fusion par dictionnaire/choix.
+- Ambiguitees: cible, lexicale, temporelle, gap.
+- Criteres d'une bonne fusion: choix des modalites, temps de reponse, robustesse a l'ambiguite.
+
+Occlusion en AR/MR
+- Par defaut, les objets virtuels occultent le reel.
+- Besoin d'un cadre computationnel commun (meme repere).
+- Probleme d'occlusion 3D: ordre, X-ray, transparence.
+- Z-buffer pour la profondeur.
+- Approche model-based: modele du monde + alignement.
+- Approche reconstructive: cameras profondeur + surfaces lisses.
+- Approche hybride (ex. modele de main + profondeur) pour interaction a mains nues.
+
+Pointage et selection 3D
+- Opportunites: gestes naturels, plus de DoF, expressivite.
+- Defis: dexterite, indices visuels, contraintes physiques.
+- Techniques: main virtuelle (naturel mais limite), pointage/ray casting (bras etendu mais precision/occlusion/stabilite), image plane (visibilite; fatigue/vergence), selection volumique (grandes zones mais complexe).
+- Fitts: temps pour atteindre une cible depend de la distance D et de la largeur W.
+- Modele d'impulsion initiale: mouvement balistique + corrections.
+- DoF: ray casting 5 DoF; occlusion selection 2 DoF; ray casting depuis l'oeil 2 DoF. Probleme main-oeil.
+- Espaces: visuel (representation), moteur (espace physique), controle (transfo de l'espace moteur).
+  - Etendre/decoupler l'espace de controle; deplacement via clutching.
+- Facteurs influents: environnement (geometrie, distance, densite), outil (DoF, portee, ergonomie), materiel (latence, bruit), utilisateur (fatigue, preferences).

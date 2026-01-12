@@ -1,0 +1,26 @@
+UX en XR: importance
+- Telepresence (communication, sante), formation, simulation, divertissement, recherche.
+- Evaluer UX multimodale: distinguer technologie vs psychologie; outils limites.
+
+Immersion, presence, plausibilite
+- Immersion: support des contingences sensorimotrices.
+- Presence (Place Illusion): sentiment d'etre dans un lieu malgre la connaissance contraire.
+- Plausibility Illusion: correlations credibles entre evenements externes et sensations.
+- Immersion vs presence: immersion = cadre technologique; presence = effet psychologique; l'utilisateur teste les limites.
+- Facteurs d'immersion (2007): FOV, regard, taille/resolution ecran, stereoscopie, rendu tete, eclairage realiste, frame rate.
+- Facteurs (1997): extensiveness, matching, surroundness, vividness, interactability, plot.
+- Uncanny valley: realisme imparfait peut reduire l'acceptation.
+- Exemples: mouvement/navig. (tracking, 6DoF, redirected), cognition spatiale (graphismes + son), interactions realistes (haptique), evenements plausibles.
+
+Evaluation UX
+- Methodes: questionnaires, mesures physiologiques, reponses comportementales.
+- ITQ: sous-echelles jeu, focus, implication.
+- Autres: SUS (usabilite), NASA-TLX (charge), UTAUT2 (acceptation), SSQ (sickness).
+
+Embodiment
+- Definition: ressentir un corps virtuel comme son corps.
+- Rubber Hand Illusion: integration multisensorielle -> appropriation d'un membre artificiel.
+- SoE: auto-localisation, agency (controle moteur), ownership (appartenance).
+- Evaluation SoE: questionnaires + estimation position/taille + reponses physiologiques au danger.
+- Six fingers illusion: variation de structure corporelle; items d'evaluation (controle, ownership, synchro tactile).
+- Effets d'avatars: enfant, autre race, autre genre, non-humain (impact sur perception/comportement).

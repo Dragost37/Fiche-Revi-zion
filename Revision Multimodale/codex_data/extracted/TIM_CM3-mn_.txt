@@ -1,0 +1,30 @@
+Mouvement et navigation en VR
+- Motivations: presence, interactions riches, plus de DoF, immersion credible.
+- Defis: synchro capteurs, fatigue, espace reel limite, mapping reel/virtuel, latence et motion sickness.
+
+Chaises et tapis
+- Materiel haut de gamme, couteux, usages limites.
+- Chaises: Yaw VR, RotoVR.
+- Tapis: low friction (Virtuix Omni, Virtualizer), tread belt (Infinadeck), config bowl vs flat.
+
+Controleurs et teleportation
+- Casques sans cable: pros (6DoF, naturel), cons (poids, contraintes, espace).
+- Joystick: direction/vitesse; pros (controle, peu de fatigue), cons (sickness, presence faible, collisions).
+- Point-and-teleport: pointer + orientation + clic; pros (effort reduit, moins de sickness, moins de collisions), cons (desorientation, precision).
+- Human joystick: mouvement du corps; pros (intuitif, faible effort), cons (effort/precision, espace limite, cout).
+
+Redirected walking
+- Idee: rotation virtuelle imperceptible pour devier la marche reelle.
+- Materiel: HMD 6DoF, modele de la piece, tracking temps reel.
+- Gains:
+  - Translation: 0.86 (6.3 m reels pour 5 m percus) a 1.26 (4.3 m reels pour 5 m percus); jusqu'a +14% / -26%.
+  - Rotation: 0.67 (134.3 deg reels pour 90 deg percus) a 1.24 (72.6 deg reels pour 90 deg percus); jusqu'a +49% / -20%.
+  - Courbure: seuil G=0.045 (~13 deg/5 m), rayon ~22 m; 40x40 m pour marche infinie.
+- Combinaison gains pour marche infinie.
+- Comparatif: joystick (sickness eleve, presence basse), teleportation (sickness bas, vitesse rapide), redirected (presence haute, sickness faible).
+
+Motion sickness
+- Frequence elevee (~25%), conflit sensoriel, surtout en mouvement lateral.
+- Causes: equipement (3DoF vs 6DoF, type de controleur), latence, instabilite posturale, facteurs bio (age, sante).
+- Evaluation: SSQ, tests de stabilite posturale, mesures physiologiques (FC, clignement, sudation...).
+- Solutions: reduire FOV, Nasum Virtualis, reduire rotations, teleportation, position assise, reduire latence.

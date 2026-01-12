@@ -1,0 +1,41 @@
+Fission multimodale (sorties)
+- Role: (1) selection/structuration du contenu, (2) selection des modalites, (3) coordination des sorties.
+
+Selection du contenu
+- Schema (predicats).
+- Planification (effets, preconditions, contraintes).
+
+Selection des modalites (taxonomie)
+- Linguistique vs non linguistique.
+- Arbitraire vs non arbitraire (specificite).
+- Analogique vs non analogique (proximite avec l'objet).
+- Statique vs dynamique.
+- Modalite physique: graphique, acoustique, haptique.
+- Expressibilite graphique: encoder tous et seulement les faits.
+
+Coordination des sorties
+- Mise en page physique.
+- Coordination temporelle (intervalles d'Allen).
+- Expressions referentielles:
+  - Multimodales: referer a des objets du monde via plusieurs modalites (pointage + parole, regard...).
+  - Cross-modales: referer a des objets d'une autre modalite de presentation.
+  - Necessite alignement temps/lieu + acces a la representation interne.
+
+Audio immersif
+- Composantes: son source, propagation (Room Impulse Response), HRTF, synthese binaurale.
+- Modelisation du son source liee a la geometrie de scene.
+- Propagation: reflexion, transmission, diffraction; facteurs obstacles, materiaux, environnement (humidite, pression).
+- Plausibilite binaurale: ergonomie du casque, indices spectraux individuels, mouvements de tete (latence), acoustique de salle.
+
+Haptique
+- Recepteur: cutanes (mecano/pression/texture, douleur, chaud/froid) + kinesthesiques (muscles/tendons/articulations).
+- Interfaces: handheld (controleurs), wearable (electrotactile, gilet, exosquelette, Peltier), encountered (bras robot, drones), props physiques, mid-air (ultrasons).
+- Defis: manque de vocabulaire, contraintes spatio-temporelles, poids/ergonomie.
+
+Accessibilite (basse vision)
+- Deficience visuelle non corrigible (ex. DMLA).
+- Difficultes VR: distance, interaction, eclairage.
+- Augmentations visuelles: grossissement, luminosite/contraste, recoloration, edge enhancement.
+- Feedback visuel: mesure distance, highlight, guideline.
+- Feedback audio: TTS, description d'objets, description de scene.
+- Autres: haptique, audio-visuel pour la selection, feedback d'action.

@@ -1,0 +1,33 @@
+Capture de mouvement: objectifs et defis
+- Objectifs: comportements naturels, realisme, analyse ergonomique; applis divertissement, sante, robotique.
+- Defis: precision (drift), latence, occlusion/interferences, cout, ergonomie, post-traitement.
+
+Technologies
+- Cameras RGB(D).
+- Capture inertielle (gyros/acceleros calibres).
+- Tracking optique (multi-cameras + marqueurs).
+- Capture volumetrique (multi-cameras RGB pour reconstruire la scene 3D).
+
+Mocap optique (Vicon)
+- Cameras IR (8-16).
+- Resolution 1.3-26.2 MP; FPS jusqu'a 2000 (~700 pleine resol., 120 temps reel).
+- Calibration: >=2 cameras par marqueur.
+- Post-process: debruitage -> 2D -> ID marqueurs -> 3D -> squelette/rotations -> edition.
+- Avantages: precision, multi-utilisateur, squelette interne, capture visage/mains, grande zone.
+- Inconvenients: couteux, post-traitement lourd, calibration, bruit reflechissant, occlusion.
+
+Mocap inertiel (XSens)
+- Potentiometres/gyros/acceleros; ~60 FPS.
+- Calibration + capture + nettoyage/smoothing.
+- Avantages: grande zone, setup leger, pas d'occlusion.
+- Inconvenients: bruit/interferences, drift, glissement, pas de capture visage, mouvement local.
+
+Capture volumetrique
+- Reconstruction 3D + nuages de points, versions statiques/dynamiques.
+- Gaussian splatting (rendu temps reel).
+- Avantages: realisme, confort (pas de capteurs), capture environnement.
+- Inconvenients: tres couteux, post-traitement, reutilisation limitee.
+
+Comparer systemes
+- Realisme, temps reel, cout, confort, liberte de mouvement, programmabilite, durabilite.
+- Autres captures: visage (app mobile), gestes (cameras frontales du HMD).
